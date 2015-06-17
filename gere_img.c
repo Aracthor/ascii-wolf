@@ -7,7 +7,7 @@
 #include "map.h"
 
 static float	calc_distance(struct s_map *map, struct s_player *player,
-			      struct s_img *img, coord vector, char *wall, float ratio)
+			      coord vector, char *wall, float ratio)
 {
   coord		point;
   float		distance;
@@ -43,7 +43,7 @@ static void	calc_col(struct s_map *map, struct s_player *player,
   char		wall;
 
   ratio = NORM(vector);
-  distance = calc_distance(map, player, img, vector, &wall, ratio);
+  distance = calc_distance(map, player, vector, &wall, ratio);
   wall_size = (int)((float)(img->larger) * 500.0f / distance);
   if (wall_size > img->larger)
     wall_size = img->larger;

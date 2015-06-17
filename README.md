@@ -8,7 +8,7 @@ So please, if you are looking for clear and clean code, go to look at another re
 
 Else, please compile and run my wolf:
 
-    gcc *.c -o wolf
+    gcc *.c -o wolf -lm
 	./wolf map.wolf
 	
 ## If your window is jerky:
