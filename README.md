@@ -1,4 +1,4 @@
-# PLEASE DO NOT JUDGE ME ON THE CODE !
+## PLEASE DO NOT JUDGE ME ON THE CODE !
 
 I did this wolf a long time ago, I was very unexperimented, and I didn't do most of basic stability checks (malloc's return for instance) because i just wanted to do it fast.
 
@@ -11,7 +11,7 @@ Else, please compile and run my wolf:
     gcc *.c -o wolf -lm
 	./wolf map.wolf
 	
-## If your window is jerky:
+### If your window is jerky:
 
 The termcaps library was not designed to use raycasting in a looped game.
 If your display is jerky, just reduce your window's dimentions and re-run my wolf.
